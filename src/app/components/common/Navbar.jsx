@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { listData } from "../helper/Helper";
+import { DayIcon } from "../helper/Icon";
+import Themetoogle from "./ThemeToggle";
 
 function Navbar() {
   return (
@@ -30,6 +32,7 @@ function Navbar() {
             ))}
           </ul>
         </div>
+        <Themetoogle />
       </div>
     </>
   );
